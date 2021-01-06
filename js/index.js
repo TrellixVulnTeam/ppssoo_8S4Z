@@ -3,7 +3,7 @@ document.querySelector('body').insertAdjacentHTML('beforebegin', `
  <nav class="header">
 
  <a href="index.html">
- <img src="/img/longlogo.png" alt="logo" class="header__logo"></a>
+ <img src="./img/longlogo.png" alt="logo" class="header__logo"></a>
   
     <ul class="header__item">
     <li><a  class="header__link" href="index.html">HOME</a></li>
@@ -51,7 +51,7 @@ document.querySelector('body').insertAdjacentHTML('beforeend', `
 
 <footer class="footer">
     <div class="footer__con">
-        <img src="/img/logo.png" alt="logo" class="footer__logo">
+        <img src="./img/logo.png" alt="logo" class="footer__logo">
         <ul class="footer__item">
             <li><a  class="footer__link" href="service.html">SERVICE</a></li>
             <li><a  class="footer__link" href="aboutus.html">ABOUT US</a></li>
@@ -70,10 +70,10 @@ document.querySelector('body').insertAdjacentHTML('beforeend', `
         </div>
         <div class="footer__box">
             <div class="footer__socials">
-                <img src="/img/facebook.png" alt="" class="footer__icon">
-                <img src="/img/twitter.png" alt="" class="footer__icon">
-                <img src="/img/instagram.png" alt="" class="footer__icon">
-                <img src="/img/email.png" alt="" class="footer__icon">
+                <img src="./img/facebook.png" alt="" class="footer__icon">
+                <img src="./img/twitter.png" alt="" class="footer__icon">
+                <img src="./img/instagram.png" alt="" class="footer__icon">
+                <img src="./img/email.png" alt="" class="footer__icon">
             </div>
         </div>
     </div>
