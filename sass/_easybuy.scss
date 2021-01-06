@@ -1,0 +1,216 @@
+.easybuy{
+    font-size: 15rem;
+}
+
+.pj{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+
+    &__con1{
+        width: 80%;
+        padding: 2rem;
+        background-color: whitesmoke;
+        margin-right: 2rem;
+
+    }
+    &__con2{
+        position: relative;
+        width: 30%;
+    }
+
+    &__con3{
+        flex-direction: column;
+        display: flex;
+        margin-top: 5rem;
+        padding: 0 2rem;
+    }
+
+    
+    &__con4{
+        margin-top: 5rem;
+        display: block;
+        position: relative;
+        background-color: whitesmoke;
+        padding: 2rem 2rem;
+    }
+
+
+   
+    &__con4 li{
+        font-size: 1.8rem;
+        color: crimson;
+        margin: 1.5rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }   
+
+
+    &__header{
+        color: teal;
+        font-size: 2rem;
+        border-bottom: solid black 0.05rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    &__title{
+        color: teal;
+        font-size: 2rem;
+        border-bottom: solid black 0.05rem;
+        margin-bottom: 1rem;
+        text-align: left;
+        padding: 1rem;
+    }
+
+    &__text{
+        margin: 2rem 0rem;
+        font-size: 1.8rem;
+    }
+
+    &__img-con{
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    &__img{
+        height: 50vh;
+        width: 48%;
+        // background-image: url(/img/pexels-ovan-57690.jpg);
+        // background-repeat: no-repeat;
+        // background-position:center;
+        // background-size: cover;
+        margin: 1rem 0rem
+    }
+}
+
+.servicelogo{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+}
+
+.s-links{
+    width: 100%;
+    position: relative;
+    margin: 1rem 0rem;
+    // padding-left: 3rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+   
+    // &:hover{
+    //     color: grey;
+    //     padding-left: .5rem;
+    // }
+}
+
+.s-next{
+    font-size: 1.5rem;
+    position: relative;
+    opacity: 100%;
+    right: 0rem;
+    top:-.2rem;
+    display: block;
+    cursor: pointer;
+    color: #000;
+
+}
+
+
+///////////////////////////////////////////////////////////////////////
+
+.wd-card{
+ 
+
+    
+        // width: 90%;
+        // height: 60vh;
+        margin:0rem;
+        background-color:whitesmoke;
+        border-radius: 1.8rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position-y: 5rem;
+        background-size: 60%;
+
+    
+
+    
+    &__con:hover > &__box{
+       display: flex;
+
+    }
+
+    &__box{
+        position: relative;
+        background-color: rgb(42, 38, 38);
+        // height: 25vh;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        transition: animation ease-in-out 1s;
+        animation: slideup .3s;
+        // display: none;
+ 
+    }
+    &__title{
+        font-size: 2rem;
+         margin-bottom: 1rem;
+         font-weight: 600;
+         letter-spacing: .2rem;
+         text-transform: uppercase;
+         color: teal;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+    }
+
+    &__btn{
+        padding: 1rem 6rem;
+        margin-top: 2rem;
+        border-radius: .5rem;
+        border: none;
+        background-color: rgb(255, 208, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        // width: 100%;
+       
+    }
+
+    
+    &__btn-text{
+        font-size: 1.5rem;
+        color: black;
+        text-decoration: none;
+    }
+
+    &__next{
+        font-size: 2rem;
+        position: relative;
+        opacity: 100%;
+        right: -5rem;
+        top:0rem;
+        color: black;
+        display: block;
+        cursor: pointer;
+
+    }
+
+}

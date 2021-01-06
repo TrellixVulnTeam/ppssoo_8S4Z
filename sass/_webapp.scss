@@ -1,0 +1,202 @@
+.webapp{
+    width: 100%;
+    padding: 7rem 10rem;
+    background-image: url(../img/pp.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    top: 5rem;
+    position: relative;
+
+    @media (max-width:48em){
+        top: 3rem;
+        padding: 3rem 2rem;
+        border-radius: 0rem;
+      }
+
+    
+    &__con{
+     width: 50%;
+
+     @media (max-width:48em){
+       width: 100%;
+      }
+
+    }
+
+    &__title{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    &__para{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    top: 10rem;
+    position: relative;
+
+    @media (max-width:48em){
+       align-items: center;
+       padding: 2rem;
+       flex-wrap: wrap;
+     
+
+      }
+
+    // &:nth-child(2){
+    //     margin-top: 5rem;
+    // }
+  
+
+    &__con{
+        width: 35%;
+        height: 60vh;
+        margin:1rem;
+        border-radius: 1.8rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: cover;
+
+        @media (max-width:48em){
+           width: 45%;
+           height: 70vh;
+           }
+     
+    
+    }
+
+    .con-1{background-image: url(../img/eb.png);}
+    .con-2{  background-image: url(../img/ptsweb.png);}
+    .con-3{}
+    .con-4{}
+    .con-5{}
+    .con-6{}
+    .con-7{}
+    .con-8{}
+    .con-9{}
+    
+    &__con:hover > &__box{
+       display: flex;
+
+    }
+
+    &__box{
+        position: relative;
+        background-color: rgba(20, 18, 20, 0.952);
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        transition: animation ease-in-out 1s;
+        animation: slideup .3s;
+        // display: none;
+ 
+    }
+    &__title{
+        font-size: 2rem;
+         margin-bottom: 1rem;
+         font-weight: 600;
+         letter-spacing: .2rem;
+         text-transform: uppercase;
+         color: cadetblue;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+.catego{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 20rem;
+    margin-bottom: 30rem;
+    
+    @media (max-width:48em){
+        flex-direction: column;
+        align-items: center;
+        }
+  
+
+    
+
+    &__box{
+        position: relative;
+        background-color: yellow;
+        height: 35vh;
+        width: 100%;
+         border-radius: 1rem;
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+        text-align: center;
+        display: flex;
+        width: 45%;
+        
+        &:hover{
+            opacity: 95%;
+
+        }
+    }
+    
+    &__box-1{
+        background-image: linear-gradient(#000000c7, #000000c7), url(../img/pexels-pixabay-207665.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center ;
+        cursor: pointer;
+        
+        @media (max-width:48em){
+            width: 85%;
+            margin-bottom: 2rem;
+             }
+    }
+
+    &__box-2{
+        background-image: linear-gradient(#000000c7, #000000c7), url(../img/pexels-pixabay-414974.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center ;
+        cursor: pointer;
+        
+        @media (max-width:48em){
+            width: 85%;
+             }
+    }
+
+    &__title{
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: white;
+    }
+    &__view{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+}
