@@ -3,7 +3,7 @@ document.querySelector('body').insertAdjacentHTML('beforebegin', `
  <nav class="header">
 
  <a href="index.html">
- <img src="./img/longlogo.png" alt="logo" class="header__logo"></a>
+ <img src="../img/longlogo.png" alt="logo" class="header__logo"></a>
   
     <ul class="header__item">
     <li><a  class="header__link" href="index.html">HOME</a></li>
